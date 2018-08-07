@@ -1,0 +1,16 @@
+web-solution/target/
+.vs/
+mobile-solution/xamarinrest/xamarinrest/bin/
+mobile-solution/xamarinrest/xamarinrest/obj/
+mobile-solution/xamarinrest/xamarinrest.Android/bin/
+mobile-solution/xamarinrest/xamarinrest.Android/obj/
+mobile-solution/xamarinrest/xamarinrest.iOS/bin/
+mobile-solution/xamarinrest/xamarinrest.iOS/obj/
+.DS_Store
+.node
+.idea
+*.iml
+.factorypath
+.springBeans
+.project
+.settings
