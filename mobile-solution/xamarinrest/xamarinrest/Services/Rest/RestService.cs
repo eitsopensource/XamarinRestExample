@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace xamarinrest.Services
 {
-    class RestService
+    public class RestService
     {
         private static readonly string Url = "http://192.168.20.16:8080/";
         private static readonly HttpClient _client = new HttpClient();

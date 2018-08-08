@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace xamarinrest.Services.Rest
 {
-    class RestHolder<T>
+    public class RestHolder<T>
     {
         //self instance singleton para RestEntityHolder, que auxilia a mexer com as Uri's REST
         public static RestHolder<T> instance = null;

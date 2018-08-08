@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace xamarinrest.Models
 {
-    class Subscription<T>
+    public class Subscription<T>
     {
         public static readonly Dictionary<string, Subscription<T>> subscriptionDictionary = new Dictionary<string, Subscription<T>>();
 

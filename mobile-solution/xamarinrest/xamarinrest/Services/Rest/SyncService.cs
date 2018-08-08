@@ -11,7 +11,7 @@ using xamarinrest.Models;
 
 namespace xamarinrest.Services.Rest
 {
-    class SyncService
+    public class SyncService
     {
         private static readonly TimeSpan syncTimeSpan = new TimeSpan(0, 0, 5);
         private static readonly TimeSpan syncDeleteTimeSpan = new TimeSpan(0, 0, 5);

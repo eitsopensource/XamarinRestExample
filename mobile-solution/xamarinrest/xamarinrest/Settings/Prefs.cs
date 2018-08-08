@@ -4,7 +4,7 @@ using System;
 
 namespace xamarinrest.Configuration
 {
-    class Prefs
+    public class Prefs
     {
         private static ISettings AppSettings => CrossSettings.Current;
         private static string filePrefs => "app.prefs";

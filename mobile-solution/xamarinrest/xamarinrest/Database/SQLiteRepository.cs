@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace xamarinrest.Database
 {
-    class SQLiteRepository
+    public class SQLiteRepository
     {
         private static readonly string dbPath = Path.Combine( Environment.GetFolderPath( Environment.SpecialFolder.Personal ), "appdatabase.db" );
         private static readonly SQLiteConnection db = new SQLiteConnection( dbPath );

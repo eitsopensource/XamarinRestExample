@@ -14,7 +14,11 @@ namespace xamarinrest
 		
 		public App ()
 		{
-			InitializeComponent();
+
+            SQLiteRepository.Init();
+            RestService.Init();
+            SyncService.Init();
+            InitializeComponent();
 
 
 			MainPage = new MainPage();
@@ -23,9 +27,6 @@ namespace xamarinrest
 		protected override void OnStart ()
 		{
             // Handle when your app starts
-            SQLiteRepository.Init();
-            RestService.Init();
-            SyncService.Init();
 		}
 
 		protected override void OnSleep ()
